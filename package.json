@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "summitwealth",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Marketing website for Summit Wealth",
+  "version": "0.0.1",
+  "author": "Sabin Raj Dangol <srdx7@hotmail.com>",
   "dependencies": {
     "gatsby": "^2.19.7",
     "gatsby-image": "^2.2.39",
@@ -22,7 +22,10 @@
     "prettier": "^1.19.1"
   },
   "keywords": [
-    "gatsby"
+    "summitwealth",
+    "marketing",
+    "website",
+    "home"
   ],
   "license": "MIT",
   "scripts": {

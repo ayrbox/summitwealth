@@ -276,7 +276,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const InteriorWrapper = styled.div`
+const LayoutWrapper = styled.div`
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -697,5 +697,9 @@ const CircleLoader = styled.div`
 `;
 
 export {
+  GlobalStyle,
+  LayoutWrapper,
+  ContentWrapper,
+  SectionHeader,
   CircleLoader,
 };

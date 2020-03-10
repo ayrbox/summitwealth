@@ -1,20 +1,26 @@
-import React from "react"
-import { Link } from "gatsby"
+import React, { Fragment } from "react"
+import { ThemeProvider } from 'styled-components';
+import { summitTheme } from '../theme';
 
-import Layout from "../components/layout"
-import Image from "../components/image"
+import { ResetCSS } from '../assets/css/styles';
+import {
+  CircleLoader,
+} from '../containers/summit.style';
+
+
+// import Layout from "../components/layout"
+// import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Sumit Wealth</h1>
-    <p>Welcome to sumitwealth</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/404">Not Found</Link>
-  </Layout>
-)
+  <ThemeProvider theme={summitTheme}>
+    <Fragment>
+      <ResetCSS />
+      <SEO title="Summit Wealth" />
+      <ResetCSS />
+      <h1>Content</h1>
+    </Fragment>
+  </ThemeProvider>
+);
 
 export default IndexPage

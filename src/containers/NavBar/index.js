@@ -2,7 +2,10 @@ import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 import { DrawerContext } from '../../contexts/DrawerContext';
+import Logo from '../../components/Logo';
 import { Container } from './navbar.style';
+
+import logo from '../../assets/images/logo.jpg';
 
 const Navbar = ({ navbarStyle, logoStyle }) => {
   const data = useStaticQuery(graphql`
@@ -33,6 +36,13 @@ const Navbar = ({ navbarStyle, logoStyle }) => {
   return (
     <div {...navbarStyle}>
       <Container>
+        <Logo
+          href="/"
+          logoSrc={logo}
+          title="Summit Wealth"
+          logoStyle={logoStyle}
+        />
+
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <button
             variant="textButton"

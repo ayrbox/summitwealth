@@ -1,4 +1,7 @@
-# Remortgages
+---
+title: Remortgages
+path: /remortgages
+---
 
 We make it easy for you to remortgage, ensuring you never pay any more than you need to. Remortgage can be used for various reasons:
 

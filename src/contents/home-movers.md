@@ -1,4 +1,7 @@
-# Homemovers
+---
+title: Home movers
+path: /home-movers
+---
 
 It’s no secret that buying a property can be an extremely stressful time. With hundreds of lenders in the market, all with ever-changing criteria, it is difficult to know which deal is best suited to you. With our wealth of experience, Summit Wealth strive to take the stress out of the buying process while keeping you fully up-to-date throughout. 
 Independent, whole of the market advice

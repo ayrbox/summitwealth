@@ -1,5 +1,5 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import React from 'react';
+import { useStaticQuery, graphql, Link } from 'gatsby';
 
 const TemporaryPageList = () => {
   const data = useStaticQuery(graphql`
@@ -16,16 +16,16 @@ const TemporaryPageList = () => {
         }
       }
     }
-  `)
+  `);
   return (
-    <ul style={{ marginTop: "200px" }}>
+    <ul style={{ marginTop: '200px' }}>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <li id={node.id}>
-          <a href={node.frontmatter.path}>{node.frontmatter.title}</a>
+          <Link to={node.frontmatter.path}>{node.frontmatter.title}</Link>
         </li>
       ))}
     </ul>
-  )
-}
+  );
+};
 
-export default TemporaryPageList
+export default TemporaryPageList;

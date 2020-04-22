@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <main>{children}</main>
+      <main className="container">{children}</main>
       <footer>&copy; {new Date().getFullYear()}, Summit Wealth Limited.</footer>
     </>
   );

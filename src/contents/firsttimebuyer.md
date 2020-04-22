@@ -1,6 +1,7 @@
 ---
 title: First Time Buyers
 path: /first-time-buyers
+category: 'Mortgage/Loans'
 ---
 
 Buying your first home will be one the most important purchases you will make and can be a daunting prospect.
@@ -12,12 +13,12 @@ Access to exclusive rates and products offering the most competitive rates in th
 Access to specific business development managers with all lenders to make sure your case completes and quickly and as smooth as possible
 
 - Free no obligation initial consultation
-- Speed of service – typically our loans are fully approved within 7-10 working days 
+- Speed of service – typically our loans are fully approved within 7-10 working days
 - Personalised advice tailored to your individual needs
 
 > Top tips
 
-> Ensure that you are realistic when working out exactly how much you can afford to spend on your new house. Make sure you factor in all fees like legal fees, stamp duty and refurbishment costs (we will help with this.) We are able to provide you with the maximum loan amount you can borrow based on your circumstances. 
-Remember to budget for expenses such as council tax, gas and electricity bills, boiler servicing, and other home repairs.
+> Ensure that you are realistic when working out exactly how much you can afford to spend on your new house. Make sure you factor in all fees like legal fees, stamp duty and refurbishment costs (we will help with this.) We are able to provide you with the maximum loan amount you can borrow based on your circumstances.
+> Remember to budget for expenses such as council tax, gas and electricity bills, boiler servicing, and other home repairs.
 
-> Make sure you know what the likely council tax charge will be in your new property. 
+> Make sure you know what the likely council tax charge will be in your new property.

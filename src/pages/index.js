@@ -4,9 +4,7 @@ import Layout from '../components/layout';
 
 const IndexPage = () => (
   <Layout>
-    <div style={{ height: '200vh' }}>
-      <TemporaryPageList />
-    </div>
+    <TemporaryPageList />
   </Layout>
 );
 

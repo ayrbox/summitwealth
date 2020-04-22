@@ -45,6 +45,14 @@ module.exports = {
         path: `${__dirname}/src/contents`,
       },
     },
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        cssLoaderOptions: {
+          camelCase: false,
+        },
+      },
+    },
   ],
   pathPrefix: `/summitwealth`,
 };

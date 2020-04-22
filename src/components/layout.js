@@ -10,6 +10,7 @@ import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 
 import Header from './header';
+import Footer from './footer';
 import '../assets/scss/index.scss';
 
 const Layout = ({ children }) => {
@@ -27,7 +28,7 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <main className="container">{children}</main>
-      <footer>&copy; {new Date().getFullYear()}, Summit Wealth Limited.</footer>
+      <Footer />
     </>
   );
 };

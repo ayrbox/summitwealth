@@ -1,11 +1,32 @@
 import React from 'react';
-import TemporaryPageList from '../components/TemporaryPageList';
 import Layout from '../components/layout';
+import { useStaticQuery, graphql, Link } from 'gatsby';
 
-const IndexPage = () => (
-  <Layout>
-    <TemporaryPageList />
-  </Layout>
-);
+const homePage = graphql`
+  query {
+    markdownRemark(frontmatter: { path: { eq: "/home" } }) {
+      html
+      frontmatter {
+        path
+        title
+      }
+    }
+  }
+`;
+
+const IndexPage = () => {
+  const data = useStaticQuery(homePage);
+  const { markdownRemark } = data;
+  const { frontmatter, html } = markdownRemark;
+  return (
+    <Layout>
+      <h1>{frontmatter.title}</h1>
+      <div
+        className="simple-page-content"
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
+    </Layout>
+  );
+};
 
 export default IndexPage;

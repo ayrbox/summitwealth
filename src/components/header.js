@@ -44,6 +44,7 @@ const Header = ({ siteTitle }) => {
       category: node.frontmatter.category,
       type: 'item',
     }))
+    .filter(({ path }) => path !== '/home')
     .reduce((navbarItems, item) => {
       if (!item.category) {
         navbarItems[item.id] = item;

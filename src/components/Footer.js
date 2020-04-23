@@ -17,7 +17,7 @@ const Footer = () => (
             Rochester, Kent, ME1 1BD
           </address>
         </Col>
-        <Col>
+        <Col className="d-flex align-items-center">
           Summit Wealth Ltd (840354) is an appointed representative of New Leaf
           Distribution Ltd which is authorised and regulated by the Financial
           Conduct Authority - FCA Number 460421

@@ -1,17 +1,11 @@
-$footer-color: #424242;
+$footer-color: #294d82;
 
 .footer-section {
   padding-top: 80px;
-  padding-bottom: 25px;
+  padding-bottom: 80px;
 
   background-color: $footer-color;
   color: #ddd;
-
-  .footer-heading {
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-    border-bottom: 1px solid #fff;
-  }
 
   address {
     img {
@@ -21,59 +15,7 @@ $footer-color: #424242;
     }
   }
 
-  ul.social {
-    li {
-      a {
-        color: #fff;
-        i {
-          font-size: 24px;
-        }
-      }
-    }
-  }
-
-  ul.opening-time {
-    padding-left: 0;
-    list-style: none outside none;
-
-    li {
-      list-style: none;
-      padding-bottom: 5px;
-    }
-  }
-
-  ul.footer-menu {
-    padding-left: 0;
-    li {
-      display: block;
-      padding: 10px 10px;
-      border-bottom: 1px solid #fff;
-
-      a {
-        color: #fff;
-        text-decoration: none;
-      }
-    }
-  }
-
-  .signup-form {
-    padding: 0;
-    border: none;
-
-    // .form-group {
-    //   border: 1px solid green;
-    // }
-
-    .form-control {
-      border-radius: 0;
-      height: 45px;
-      // width: 300px;
-    }
-
-    .btn-subscribe {
-      border-radius: 0;
-    }
-  }
+  @extend .mt-auto;
 }
 
 .copyright-section {

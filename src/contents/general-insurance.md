@@ -43,12 +43,3 @@ Contact Number:
 Message:
 
 > \*Details submitted through this form are confidential. The information therein is used only to contact you to discuss the areas you've expressed an interest in.
-
-> Footer Component  
-> **IMPORTANT** Your home may be repossessed if you do not keep up repayments on your mortgage.Our typical fee is £399 for purchases and £199 for remortgages but a fee of up to 1% is payable in some instances. Some commercial mortgages and most buy to let mortgages are not regulated by The Financial Conduct Authority.
-
-Summit Wealth Ltd (840354) is an appointed representative of New Leaf Distribution Ltd which is authorised and regulated by the Financial Conduct Authority - FCA Number 460421
-
-Summit Wealth Registered Office: Riseley House, 4 New Road, Rochester, Kent, ME1 1BD
-
-© 2020 Summit Wealth Finance. All Rights Reserved.

@@ -6,16 +6,25 @@ import logo from '../assets/images/logo.jpg';
 const Footer = () => (
   <footer className="footer-section">
     <Container>
+      <Row>
+        <Col className="pb-5">
+          <p className="lead text-justify">
+            IMPORTANT: Your home may be repossessed if you do not keep up
+            repayments on your mortgage. Our typical fee is £399 for purchases
+            and £199 for remortgages but a fee of up to 1% is payable in some
+            instances. Some commercial mortgages and most buy to let mortgages
+            are not regulated by The Financial Conduct Authority.
+          </p>
+        </Col>
+      </Row>
       <Row xs="1" sm="1" md="2">
         <Col>
-          <address>
-            <img src={logo} alt="Company Logo" />
-            <h4>Summit Wealth</h4>
-            Registered Office:
-            <br />
-            Riseley House, 4 New Road, <br />
-            Rochester, Kent, ME1 1BD
-          </address>
+          <img src={logo} alt="Company Logo" />
+          <h4>Summit Wealth</h4>
+          Registered Office:
+          <br />
+          Riseley House, 4 New Road, <br />
+          Rochester, Kent, ME1 1BD
         </Col>
         <Col className="d-flex align-items-center">
           Summit Wealth Ltd (840354) is an appointed representative of New Leaf
@@ -23,13 +32,17 @@ const Footer = () => (
           Conduct Authority - FCA Number 460421
         </Col>
       </Row>
-      <Row>
-        <Col>
-          &copy; {new Date().getFullYear()} Summit Wealth Finance. All Rights
-          Reserved.
-        </Col>
-      </Row>
     </Container>
+    <div className="copyright-section">
+      <Container>
+        <Row>
+          <Col>
+            &copy; {new Date().getFullYear()} Summit Wealth Finance. All Rights
+            Reserved.
+          </Col>
+        </Row>
+      </Container>
+    </div>
   </footer>
 );
 

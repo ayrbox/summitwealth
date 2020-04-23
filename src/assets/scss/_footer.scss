@@ -2,7 +2,6 @@ $footer-color: #294d82;
 
 .footer-section {
   padding-top: 80px;
-  padding-bottom: 80px;
 
   background-color: $footer-color;
   color: #ddd;
@@ -21,7 +20,8 @@ $footer-color: #294d82;
 .copyright-section {
   background-color: darken($footer-color, 15);
   color: #ddd;
-  padding: 20px 0 14px;
+  padding: 20px 0;
+  margin-top: 80px;
 
   .back-to-top {
     color: #fff;

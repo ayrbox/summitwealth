@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
+  Container,
   Collapse,
   Navbar,
   NavbarToggler,
@@ -59,49 +60,52 @@ const Header = ({ siteTitle }) => {
     <header
       style={{
         marginBottom: `1.45rem`,
+        borderBottom: '1px solid #eee',
       }}
     >
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">
-          <img
-            src={logo}
-            className="rounded float-left"
-            alt="Summit Wealth Logo"
-          />
-        </NavbarBrand>
-        <NavbarToggler />
-        <Collapse isOpen navbar>
-          <Nav className="mr-auto" navbar>
-            {Object.keys(data).map(navKey => {
-              const navItem = data[navKey];
-              if (navItem.type === 'category') {
-                return (
-                  <UncontrolledDropdown nav inNavbar key={navKey}>
-                    <DropdownToggle nav caret>
-                      {navKey}
-                    </DropdownToggle>
-                    <DropdownMenu right>
-                      {navItem.items.map(i => (
-                        <DropdownItem key={i.id} to={i.path} tag={Link}>
-                          {i.title}
-                        </DropdownItem>
-                      ))}
-                    </DropdownMenu>
-                  </UncontrolledDropdown>
-                );
-              } else {
-                return (
-                  <NavItem key={navKey}>
-                    <NavLink to={navItem.path} tag={Link}>
-                      {navItem.title}
-                    </NavLink>
-                  </NavItem>
-                );
-              }
-            })}
-          </Nav>
-        </Collapse>
-      </Navbar>
+      <Container>
+        <Navbar light expand="md">
+          <NavbarBrand href="/">
+            <img
+              src={logo}
+              className="rounded float-left"
+              alt="Summit Wealth Logo"
+            />
+          </NavbarBrand>
+          <NavbarToggler />
+          <Collapse isOpen navbar>
+            <Nav className="mr-auto" navbar>
+              {Object.keys(data).map(navKey => {
+                const navItem = data[navKey];
+                if (navItem.type === 'category') {
+                  return (
+                    <UncontrolledDropdown nav inNavbar key={navKey}>
+                      <DropdownToggle nav caret>
+                        {navKey}
+                      </DropdownToggle>
+                      <DropdownMenu right>
+                        {navItem.items.map(i => (
+                          <DropdownItem key={i.id} to={i.path} tag={Link}>
+                            {i.title}
+                          </DropdownItem>
+                        ))}
+                      </DropdownMenu>
+                    </UncontrolledDropdown>
+                  );
+                } else {
+                  return (
+                    <NavItem key={navKey}>
+                      <NavLink to={navItem.path} tag={Link}>
+                        {navItem.title}
+                      </NavLink>
+                    </NavItem>
+                  );
+                }
+              })}
+            </Nav>
+          </Collapse>
+        </Navbar>
+      </Container>
     </header>
   );
 };

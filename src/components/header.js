@@ -66,7 +66,7 @@ const Header = ({ siteTitle }) => {
     >
       <Container>
         <Navbar light expand="md">
-          <NavbarBrand href="/">
+          <NavbarBrand to="/" tag={Link}>
             <img
               src={logo}
               className="rounded float-left"

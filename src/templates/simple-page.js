@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 import Layout from '../components/layout';
 
@@ -10,6 +11,13 @@ export default function Template({ data }) {
   return (
     <Layout>
       <h1>{frontmatter.title}</h1>
+
+      {frontmatter.image && (
+        <Img
+          fluid={frontmatter.image.childImageSharp.fluid}
+          alt={frontmatter.title}
+        />
+      )}
       <div
         className="simple-page-content"
         dangerouslySetInnerHTML={{ __html: html }}
@@ -25,6 +33,13 @@ export const pageQuery = graphql`
       frontmatter {
         path
         title
+        image {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

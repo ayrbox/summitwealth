@@ -1,7 +1,7 @@
 ---
 title: Life Protection
 path: /life-protection
-category: Insurance
+image: images/9QTQFihyles.jpg
 ---
 
 ### Life Assurance

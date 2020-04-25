@@ -1,7 +1,6 @@
 ---
 title: Commercial
-path: /commerical
-category: "Mortgage/Loans"
+path: /commercial
 ---
 
 We are whole of market commercial brokers, able to access the numerous commercial mortgage schemes via a wide range of lenders across the UK; both high street lenders and specialist intermediary lenders. Summit Wealth has experience in the commercial industry whether you are looking for:

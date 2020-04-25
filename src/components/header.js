@@ -19,44 +19,23 @@ import { useStaticQuery, graphql, Link } from 'gatsby';
 import logo from '../assets/images/logo.jpg';
 
 const Header = ({ siteTitle }) => {
-  const contents = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark {
-        edges {
-          node {
-            id
-            frontmatter {
-              title
-              path
-              category
-            }
+      navigations: allNavigationsYaml {
+        nodes {
+          items {
+            title
+            path
+            slug
           }
+          path
+          title
+          slug
         }
       }
     }
   `);
 
-  const data = contents.allMarkdownRemark.edges
-    .map(({ node }) => ({
-      id: node.id,
-      path: node.frontmatter.path,
-      title: node.frontmatter.title,
-      category: node.frontmatter.category,
-      type: 'item',
-    }))
-    .filter(({ path }) => path !== '/home')
-    .reduce((navbarItems, item) => {
-      if (!item.category) {
-        navbarItems[item.id] = item;
-      } else {
-        navbarItems[item.category] = navbarItems[item.category] || {
-          type: 'category',
-          items: [],
-        };
-        navbarItems[item.category]['items'].push(item);
-      }
-      return navbarItems;
-    }, {});
   return (
     <header
       style={{
@@ -76,17 +55,16 @@ const Header = ({ siteTitle }) => {
           <NavbarToggler />
           <Collapse isOpen navbar>
             <Nav className="mr-auto" navbar>
-              {Object.keys(data).map(navKey => {
-                const navItem = data[navKey];
-                if (navItem.type === 'category') {
+              {data.navigations.nodes.map(({ slug, title, path, items }) => {
+                if (items) {
                   return (
-                    <UncontrolledDropdown nav inNavbar key={navKey}>
+                    <UncontrolledDropdown nav inNavbar key={slug}>
                       <DropdownToggle nav caret>
-                        {navKey}
+                        {title}
                       </DropdownToggle>
                       <DropdownMenu right>
-                        {navItem.items.map(i => (
-                          <DropdownItem key={i.id} to={i.path} tag={Link}>
+                        {items.map(i => (
+                          <DropdownItem key={i.slug} to={i.path} tag={Link}>
                             {i.title}
                           </DropdownItem>
                         ))}
@@ -95,9 +73,9 @@ const Header = ({ siteTitle }) => {
                   );
                 } else {
                   return (
-                    <NavItem key={navKey}>
-                      <NavLink to={navItem.path} tag={Link}>
-                        {navItem.title}
+                    <NavItem key={slug}>
+                      <NavLink to={path} tag={Link}>
+                        {title}
                       </NavLink>
                     </NavItem>
                   );

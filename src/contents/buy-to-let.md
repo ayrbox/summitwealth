@@ -1,7 +1,6 @@
 ---
 title: Buy to let and company BTL
-path: /buy-to-let-and-company-btl
-category: "Mortgage/Loans"
+path: /buy-to-let
 ---
 
 Whether it’s your first Buy to Let property, growing your portfolio or seeking advice on Limited Company purchases,

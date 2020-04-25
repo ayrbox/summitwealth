@@ -1,0 +1,57 @@
+- title: Home
+  path: /home
+  slug: home-page
+
+- title: About
+  path: /about
+  slug: about-page
+
+- title: Mortgage and Loans
+  path: #
+  slug: morgate-category
+  items:
+    - slug: first-time-buyer
+      title: First Time Buyers
+      path: /first-time-buyers
+    - slug: buy-to-let
+      title: Buy to let and Company BTL
+      path: /buy-to-let
+    - slug: commercial
+      title: Commercial
+      path: /commercial
+    - slug: home-movers
+      title: Home Movers
+      path: /home-movers
+    - slug: new-build
+      title: New Build Properties
+      path: /new-build-properties
+    - slug: remortgage
+      title: Remortgages
+      path: /remortgages
+
+- title: Protections
+  path: /protections
+  slug: protections-page
+
+- title: Insurance
+  path: #
+  slug: insurance-category
+  items:
+    - title: General Insurance
+      path: /general-insurance
+      slug: general-insurace-page
+    - title: Life Protection
+      path: /life-protection
+      slug: life-protection-page
+
+- title: Equity Release
+  path: /equity-release
+  slug: equity-page
+
+- title: Services
+  path: /services
+  slug: services-page
+
+- title: Contact us
+  path: /contact
+  slug: contact-page

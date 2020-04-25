@@ -16,24 +16,19 @@ items can be added to this along with just a general amount of contents inside y
 jewellery, TVs, bikes and art among other things. There are other ‘bolt ons’ that can be added that can be tailored to
 your needs.
 
-We offer whole of market advice.
+- We offer whole of market advice.
+- We have access to exclusive products, rates and criteria giving us a competitive edge in the market.
+- We offer one on one advice and can discuss all needs privately and professionally.
+- Free consultations to all .
 
-We have access to exclusive products, rates and criteria giving us a competitive edge in the market.
-
-We offer one on one advice and can discuss all needs privately and professionally.
-
-Free consultations to all .
-
-Buy to Let Insurance .
+### Buy to Let Insurance
 
 We can offer landlord and landlady’s buy to let insurance which allows you to protect things like loss of rental income and damage of your property due to the tenants inside. This can also be tailored to your specific wants and needs of what you would like to have protected. It can consist of multiple properties on one blanket policy or if you just have the one property on its own then we can cover that also.
 
-We offer whole of market advice.
-
-We have access to exclusive products, rates and criteria giving us a competitive edge in the market.  
-We offer one on one advice and can discuss all needs privately and professionally.
-
-Free consultations to all .
+- We offer whole of market advice.
+- We have access to exclusive products, rates and criteria giving us a competitive edge in the market.
+- We offer one on one advice and can discuss all needs privately and professionally.
+- Free consultations to all .
 
 ## Contact us page
 

@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
 html,
 body,
 #___gatsby {
   @extend .h-100;
+  font-family: Helvetica, 'Playfair Display', Arial, sans-serif;
+  line-height: 1.8;
 }
 
 // Fix height for gatsbyjs wrapper

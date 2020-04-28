@@ -1,10 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Container } from 'reactstrap';
-import { withPrefix } from 'gatsby';
 
 const Banner = ({ image, title }) => {
-  const url = image ? withPrefix(image.childImageSharp.fluid.src) : '';
+  const url = image ? image.childImageSharp.fluid.src : '';
 
   return (
     <div

@@ -16,7 +16,7 @@ import {
 } from 'reactstrap';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 
-import logo from '../assets/images/logo.jpg';
+import logo from '../assets/images/logo-summit-wealth.jpg';
 
 const Header = ({ siteTitle }) => {
   const data = useStaticQuery(graphql`
@@ -33,6 +33,13 @@ const Header = ({ siteTitle }) => {
           slug
         }
       }
+      logo: file(relativePath: { eq: "logo-summit-wealth.jpg" }) {
+        childImageSharp {
+          fixed(width: 200) {
+            src
+          }
+        }
+      }
     }
   `);
 
@@ -47,7 +54,7 @@ const Header = ({ siteTitle }) => {
         <Navbar light expand="md">
           <NavbarBrand to="/" tag={Link}>
             <img
-              src={logo}
+              src={data.logo.childImageSharp.fixed.src}
               className="rounded float-left"
               alt="Summit Wealth Logo"
             />

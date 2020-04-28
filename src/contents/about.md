@@ -3,7 +3,7 @@ title: About Us
 path: /about
 ---
 
-\***\*Summit Wealth\*\***, is a ‘whole of market’ professional mortgage and protection consultancy based in London and Kent.
+**Summit Wealth**, is a ‘whole of market’ professional mortgage and protection consultancy based in London and Kent.
 
 We understand each client is different and how difficult it can be to find time to sit down and discuss your finances.
 Our flexible approach means we are always able to find a time that is suitable. We listen carefully to your

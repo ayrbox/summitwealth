@@ -1,6 +1,6 @@
 ---
-title: Cookie Policy
-path: /cookie
+title: Privacy & Cookie Policy
+path: /privacy-cookie-policy
 ---
 
 ### What are cookies?

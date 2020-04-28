@@ -1,7 +1,7 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
-import { useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
+import { Container, Row, Col, Nav, NavLink } from 'reactstrap';
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
@@ -51,9 +51,19 @@ const Footer = () => {
       <div className="copyright-section">
         <Container>
           <Row>
-            <Col>
+            <Col className="d-flex align-items-center" md="8">
               &copy; {new Date().getFullYear()} Summit Wealth Finance. All
               Rights Reserved.
+            </Col>
+            <Col>
+              <Nav>
+                <NavLink to="/terms-of-use" tag={Link}>
+                  Terms of Use
+                </NavLink>
+                <NavLink to="/privacy-cookie-policy" tag={Link}>
+                  Privacy and Cookie
+                </NavLink>
+              </Nav>
             </Col>
           </Row>
         </Container>

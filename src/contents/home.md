@@ -4,7 +4,7 @@ path: /home
 image: images/home-page.jpg
 ---
 
-Here at Summit Wealth, we specialise in providing our clients with the quality, professional Mortgage and Protection
+Here at **Summit Wealth**, we specialise in providing our clients with the quality, professional Mortgage and Protection
 advice the you can trust. We understand everyone is unique and trying to understand the mortgage and insurance markets
 can be a very daunting task. Whether it is your first step on the property ladder, moving home, a professional landlord,
 Summit Wealth offers whole-of-market advice enabling you to make an informed decision on the product which is best

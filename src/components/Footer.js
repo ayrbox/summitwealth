@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { useStaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
@@ -8,7 +9,7 @@ const Footer = () => {
       logo: file(relativePath: { eq: "logo-summit-wealth.jpg" }) {
         childImageSharp {
           fixed(width: 200) {
-            src
+            ...GatsbyImageSharpFixed
           }
         }
       }
@@ -31,7 +32,10 @@ const Footer = () => {
         </Row>
         <Row xs="1" sm="1" md="2">
           <Col>
-            <img src={data.logo.childImageSharp.fixed.src} alt="Company Logo" />
+            <Img
+              fixed={data.logo.childImageSharp.fixed}
+              alt="Summit Wealth Logo"
+            />
             <h4>Summit Wealth</h4>
             Registered Office:
             <br />

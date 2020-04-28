@@ -15,6 +15,7 @@ import {
   DropdownItem,
 } from 'reactstrap';
 import { useStaticQuery, graphql, Link } from 'gatsby';
+import Img from 'gatsby-image';
 
 const Header = ({ siteTitle }) => {
   const data = useStaticQuery(graphql`
@@ -34,7 +35,7 @@ const Header = ({ siteTitle }) => {
       logo: file(relativePath: { eq: "logo-summit-wealth.jpg" }) {
         childImageSharp {
           fixed(width: 200) {
-            src
+            ...GatsbyImageSharpFixed
           }
         }
       }
@@ -51,9 +52,8 @@ const Header = ({ siteTitle }) => {
       <Container>
         <Navbar light expand="md">
           <NavbarBrand to="/" tag={Link}>
-            <img
-              src={data.logo.childImageSharp.fixed.src}
-              className="rounded float-left"
+            <Img
+              fixed={data.logo.childImageSharp.fixed}
               alt="Summit Wealth Logo"
             />
           </NavbarBrand>

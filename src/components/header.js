@@ -16,8 +16,6 @@ import {
 } from 'reactstrap';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 
-import logo from '../assets/images/logo-summit-wealth.jpg';
-
 const Header = ({ siteTitle }) => {
   const data = useStaticQuery(graphql`
     query {

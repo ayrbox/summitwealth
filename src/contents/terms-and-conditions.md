@@ -1,6 +1,6 @@
 ---
 title: Terms of use
-path: /terms-of-user
+path: /terms-of-use
 ---
 
 ### Who are Summit Wealth Ltd?

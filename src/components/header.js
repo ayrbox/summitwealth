@@ -44,7 +44,6 @@ const Header = () => {
   return (
     <header
       style={{
-        marginBottom: `1.45rem`,
         borderBottom: '1px solid #eee',
       }}
     >

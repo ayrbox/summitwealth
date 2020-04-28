@@ -5,6 +5,10 @@ module.exports = {
     title: `Summit Wealth`,
     description: `Your mortagage solution provider`,
     author: '@ayrbox',
+    social: {
+      fb: 'https://www.facebook.com/Summitwealthltd',
+      ig: 'https://www.instagram.com/summitwealthltd',
+    },
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

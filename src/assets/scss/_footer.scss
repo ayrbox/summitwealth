@@ -15,6 +15,15 @@ $footer-color: #294d82;
   }
 
   @extend .mt-auto;
+
+  .social-media-links {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    & > a {
+      margin-right: 1rem;
+    }
+  }
 }
 
 .copyright-section {

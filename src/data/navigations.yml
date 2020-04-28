@@ -30,19 +30,12 @@
       path: /remortgages
 
 - title: Protections
-  path: /protections
-  slug: protections-page
+  path: /life-protection
+  slug: life-protection-page
 
 - title: Insurance
-  path: #
-  slug: insurance-category
-  items:
-    - title: General Insurance
-      path: /general-insurance
-      slug: general-insurace-page
-    - title: Life Protection
-      path: /life-protection
-      slug: life-protection-page
+  path: /general-insurance
+  slug: general-insurace-page
 
 - title: Equity Release
   path: /equity-release

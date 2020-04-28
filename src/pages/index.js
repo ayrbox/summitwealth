@@ -19,7 +19,7 @@ const IndexPage = () => {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
   return (
-    <Layout>
+    <Layout title="Home">
       <h1>{frontmatter.title}</h1>
       <div
         className="simple-page-content"

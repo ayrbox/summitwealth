@@ -15,7 +15,6 @@ const Footer = () => {
       }
     }
   `);
-
   return (
     <footer className="footer-section">
       <Container>

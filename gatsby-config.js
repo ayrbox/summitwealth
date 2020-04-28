@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: `Summit Wealth`,
     description: `Your mortagage solution provider`,
-    author: `@ayrbox`,
+    author: '@ayrbox',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

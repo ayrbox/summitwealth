@@ -9,7 +9,7 @@ export default function Template({ data }) {
   const { frontmatter, html } = markdownRemark;
 
   return (
-    <Layout>
+    <Layout title={frontmatter.title}>
       <h1>{frontmatter.title}</h1>
 
       {frontmatter.image && (

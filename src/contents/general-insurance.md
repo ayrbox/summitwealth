@@ -1,7 +1,7 @@
 ---
 title: General Insurance
 path: /general-insurance
-category: Insurance
+image: images/insurance.jpg
 ---
 
 ## Buildings and Contents Insurance

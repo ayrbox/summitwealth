@@ -1,6 +1,7 @@
 ---
 title: Welcome to Summit Wealth
 path: /home
+image: images/home-page.jpg
 ---
 
 Here at Summit Wealth, we specialise in providing our clients with the quality, professional Mortgage and Protection

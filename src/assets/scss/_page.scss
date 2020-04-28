@@ -1,0 +1,40 @@
+.page-content {
+  @extend .p-5;
+}
+
+.banner-wrapper {
+  padding: 0;
+  height: 70vh;
+  overflow: hidden;
+  position: relative;
+  background-color: #2e4e82;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .image-overlay {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.banner-content {
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.banner-title {
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.8);
+  font-size: 4em;
+}

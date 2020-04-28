@@ -1,7 +1,7 @@
 ---
 title: Home movers
 path: /home-movers
-category: "Mortgage/Loans"
+image: images/mortgage-loans.jpg
 ---
 
 It’s no secret that buying a property can be an extremely stressful time. With hundreds of lenders in the market, all

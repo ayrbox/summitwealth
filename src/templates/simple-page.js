@@ -1,8 +1,9 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import { Container, Row, Col } from 'reactstrap';
 
 import Layout from '../components/layout';
+import Banner from '../components/Banner';
 
 export default function Template({ data }) {
   const { markdownRemark } = data;
@@ -10,18 +11,17 @@ export default function Template({ data }) {
 
   return (
     <Layout title={frontmatter.title}>
-      <h1>{frontmatter.title}</h1>
-
-      {frontmatter.image && (
-        <Img
-          fluid={frontmatter.image.childImageSharp.fluid}
-          alt={frontmatter.title}
-        />
-      )}
-      <div
-        className="simple-page-content"
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
+      <Banner image={frontmatter.image} title={frontmatter.title} />
+      <Container>
+        <Row>
+          <Col>
+            <div
+              className="page-content"
+              dangerouslySetInnerHTML={{ __html: html }}
+            ></div>
+          </Col>
+        </Row>
+      </Container>
     </Layout>
   );
 }

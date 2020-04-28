@@ -1,7 +1,7 @@
 ---
 title: First Time Buyers
 path: /first-time-buyers
-image: images/NaWJWzmprZQ.jpg
+image: images/mortgage-loans.jpg
 ---
 
 Buying your first home will be one the most important purchases you will make and can be a daunting prospect.

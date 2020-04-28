@@ -1,7 +1,7 @@
 ---
 title: Equity Release
 path: /equity-release
-image: images/zlA7c39DfFk.jpg
+image: images/equity-release.jpg
 ---
 
 ### What Is Equity Release?

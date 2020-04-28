@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   siteMetadata: {
     title: `Summit Wealth`,
@@ -9,15 +11,16 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/assets/images`,
+        name: `logos`,
+        path: path.join(__dirname, 'src', 'assets', 'images', 'logos'),
       },
     },
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `./src/data/`,
+        name: 'data',
+        path: path.join(__dirname, 'src', 'data'),
       },
     },
     `gatsby-transformer-sharp`,
@@ -31,7 +34,14 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/assets/images/logo.jpg`, // This path is relative to the root of the site.
+        icon: path.join(
+          __dirname,
+          'src',
+          'assets',
+          'images',
+          'logos',
+          'logo.png'
+        ),
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

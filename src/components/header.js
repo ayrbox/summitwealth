@@ -32,7 +32,7 @@ const Header = ({ siteTitle }) => {
           slug
         }
       }
-      logo: file(relativePath: { eq: "logo-summit-wealth.jpg" }) {
+      logo: file(relativePath: { eq: "logo.jpg" }) {
         childImageSharp {
           fixed(width: 200) {
             ...GatsbyImageSharpFixed

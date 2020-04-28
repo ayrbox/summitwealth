@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Container,
   Collapse,
@@ -17,6 +17,7 @@ import { useStaticQuery, graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 
 const Header = () => {
+  const [isOpen, setOpen] = useState(false);
   const data = useStaticQuery(graphql`
     query {
       navigations: allNavigationsYaml {
@@ -41,6 +42,11 @@ const Header = () => {
     }
   `);
 
+  const handleMenuToggle = e => {
+    e.preventDefault();
+    setOpen(!isOpen);
+  };
+
   return (
     <header
       style={{
@@ -55,8 +61,8 @@ const Header = () => {
               alt="Summit Wealth Logo"
             />
           </NavbarBrand>
-          <NavbarToggler />
-          <Collapse isOpen navbar>
+          <NavbarToggler onClick={handleMenuToggle} />
+          <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
               {data.navigations.nodes.map(({ slug, title, path, items }) => {
                 if (items) {

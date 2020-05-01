@@ -34,16 +34,16 @@
   slug: life-protection-page
 
 - title: Insurance
-  path: /general-insurance
-  slug: general-insurace-page
+  path: /insurance
+  slug: insurace-page
 
 - title: Equity Release
   path: /equity-release
   slug: equity-page
 
-- title: Services
-  path: /services
-  slug: services-page
+- title: Other Services
+  path: /other-services
+  slug: other-services
 
 - title: Contact us
   path: /contact

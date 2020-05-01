@@ -28,6 +28,11 @@ const Footer = () => {
       <Container>
         <Row>
           <Col className="pb-5">
+            <p>
+              The guidance and/or advice contained within this website is
+              subject to the UK regulatory regime, and is therefore targeted at
+              consumers based in the UK.
+            </p>
             <p className="text-justify">
               <strong>IMPORTANT:</strong> Your home may be repossessed if you do
               not keep up repayments on your mortgage. Our typical fee is £399
@@ -44,7 +49,6 @@ const Footer = () => {
               fixed={data.logo.childImageSharp.fixed}
               alt="Summit Wealth Logo"
             />
-            <h4>Summit Wealth</h4>
             Registered Office:
             <br />
             Riseley House, 4 New Road, <br />
@@ -228,7 +232,7 @@ const Footer = () => {
         <Container>
           <Row>
             <Col className="d-flex align-items-center" md="8">
-              &copy; {new Date().getFullYear()} Summit Wealth Finance. All
+              &copy; {new Date().getFullYear()} Summit Wealth Limited. All
               Rights Reserved.
             </Col>
             <Col>
@@ -237,7 +241,7 @@ const Footer = () => {
                   Terms of Use
                 </NavLink>
                 <NavLink to="/privacy-cookie-policy" tag={Link}>
-                  Privacy and Cookie
+                  Privacy and Cookies Policy
                 </NavLink>
               </Nav>
             </Col>

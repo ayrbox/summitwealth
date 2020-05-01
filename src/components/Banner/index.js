@@ -16,6 +16,12 @@ const Banner = ({ image, title }) => {
       <div className="image-overlay" />
       <Container className="banner-content">
         <h1 className="banner-title">{title}</h1>
+        <p>
+          One of the UK’s Premier Mortgage and Protection specialists: - Moving
+          Home - Remortgaging - First Time Buyer - Buy to Let - Help to Buy -
+          Equity Release - Commercial Loans - Bridging Facility - Development
+          Finance - Life Assurance - Critical illness Cover - Income Protection
+        </p>
       </Container>
     </div>
   );

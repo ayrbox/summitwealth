@@ -1,10 +1,10 @@
 ---
-title: Life Protection
+title: Protection
 path: /life-protection
 image: images/protection.jpg
 ---
 
-### Life Assurance
+#### Life Assurance
 
 A level or decreasing term life insurance cover is the where most people begin their protection journey. This is a tax
 free lump sum amount that will pay out if you die during the ‘term’. The main reason for this is to protect the
@@ -16,7 +16,7 @@ mortgage but can be used as legacy planning and/or
 - We offer one on one advice and can discuss all needs privately and professionally.
 - Free consultations to all
 
-### Critical Illness Cover
+#### Critical Illness Cover
 
 Critical illness cover is there to pay a tax-free lump sum to you on the diagnosis of certain and specific illnesses
 that each provider explains. We cannot stress enough as a company the importance of protecting yourself, the financial
@@ -32,7 +32,7 @@ protection plan.
 - We offer one on one advice and can discuss all needs privately and professionally.
 - Free consultations to all
 
-### Income Protection
+#### Income Protection
 
 Income Protection is there to pay you a monthly income should you be unable to work due to accident or sickness.
 It will pay out up until the term of the policy (this can vary from 1 year all the way up to retirement age).
@@ -43,7 +43,7 @@ It is for both employed and self-employed and can help you to continue living yo
 - We offer one on one advice and can discuss all needs privately and professionally.
 - Free consultations to all
 
-### Whole of Life
+#### Whole of Life
 
 Whole of Life simply is a policy that will pay out on the event of your death and it is guaranteed to do so. It is
 typically more expensive than term assurance for that reason, but is a great plan for guaranteeing something for your
@@ -55,7 +55,7 @@ funeral costs and again inheritance tax purposes.
 - We offer one on one advice and can discuss all needs privately and professionally.
 - Free consultations to all
 
-### Business Protection
+#### Business Protection
 
 Business protection is usually broken down into two different policies; Key Man Assurance. Having this protection is
 key as there are many reasons the loss of a colleague in your business can cause serious issues in the business,

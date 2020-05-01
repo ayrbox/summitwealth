@@ -1,5 +1,6 @@
 .page-content {
-  @extend .p-5;
+  @extend .pt-5;
+  @extend .pb-5;
 }
 
 .banner-wrapper {
@@ -13,7 +14,7 @@
   background-position: center;
 
   .image-overlay {
-    content: '';
+    content: "";
     background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 0;
@@ -32,6 +33,21 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
+
+  ul {
+    column-count: 2;
+    li {
+      line-height: 2.2;
+
+      a {
+        color: #fff;
+        &:hover {
+          color: #dedede;
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
 
 .banner-title {

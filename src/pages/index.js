@@ -11,12 +11,17 @@ const homePage = graphql`
       frontmatter {
         path
         title
+        lead
         image {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
             }
           }
+        }
+        links {
+          title
+          path
         }
       }
     }
@@ -29,7 +34,12 @@ const IndexPage = () => {
   const { frontmatter, html } = markdownRemark;
   return (
     <Layout title="Home">
-      <Banner image={frontmatter.image} title={frontmatter.title} />
+      <Banner
+        image={frontmatter.image}
+        title={frontmatter.title}
+        lead={frontmatter.lead}
+        links={frontmatter.links}
+      />
       <Container>
         <Row>
           <Col>

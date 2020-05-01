@@ -2,6 +2,31 @@
 title: Welcome to Summit Wealth
 path: /home
 image: images/home-page.jpg
+lead: >
+  One of the UK’s Premier Mortgage and Protection specialists:
+
+links:
+  - title: Moving Home
+    path: /home-movers
+  - title: Remortgaging
+    path: /remortgages
+  - title: First Time Buyer
+    path: /first-time-buyers
+  - title: Buy to Let
+    path: /buy-to-let
+  - title: Help to Buy
+  - title: Equity Release
+    path: /equity-release
+  - title: Commercial Loans
+    path: /commercial
+  - title: Bridging Facility
+  - title: Development Finance
+  - title: Life Assurance
+    path: /protection
+  - title: Critical illness Cover
+    path: /protection
+  - title: Income Protection
+    path: /protection
 ---
 
 Here at **Summit Wealth**, we specialise in providing our clients with quality, tailored, professional mortgage and protection advice you can trust. We understand everyone’s circumstances are different and trying to understand the mortgage and insurance markets can be very daunting.

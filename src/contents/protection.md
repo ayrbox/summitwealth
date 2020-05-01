@@ -4,6 +4,13 @@ path: /protection
 image: images/mODxn7mOzms.jpg
 lead: >
   You’ve settled into a new life in a new house, but what if anything bad happens? For the sake of your home, family and dependents, be prepared and make sure you are covered.
+
+links:
+  - title: Inheritance Tax Purposes.
+  - title: We offer whole of market advice.
+  - title: We have access to exclusive products, rates and criteria giving us a competitive edge in the market.
+  - title: We offer one on one advice and can discuss all needs privately and professionally.
+  - title: Free consultations to all
 ---
 
 #### Life Assurance

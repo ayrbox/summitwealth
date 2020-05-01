@@ -15,6 +15,7 @@ export default function Template({ data }) {
         image={frontmatter.image}
         title={frontmatter.title}
         lead={frontmatter.lead}
+        links={frontmatter.links}
       />
       <Container>
         <Row>
@@ -44,6 +45,10 @@ export const pageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+        }
+        links {
+          title
+          path
         }
       }
     }

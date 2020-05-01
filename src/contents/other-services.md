@@ -1,6 +1,9 @@
 ---
 title: Other Services
 path: /other-services
+image: images/other-service-pen.jpg
+lead: >
+  We do not stop at just giving mortgage and protection advice. Please see our other services listed below and feel free to get in touch.
 ---
 
 #### Wills & Trusts

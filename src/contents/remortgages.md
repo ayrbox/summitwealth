@@ -2,6 +2,8 @@
 title: Remortgages
 path: /remortgages
 image: images/mortgage-loans.jpg
+lead: >
+  We make it easy for you to remortgage, ensuring you never pay any more than you need to.
 ---
 
 We make it easy for you to remortgage, ensuring you never pay any more than you need to. Remortgage can be used for

@@ -11,7 +11,11 @@ export default function Template({ data }) {
 
   return (
     <Layout title={frontmatter.title}>
-      <Banner image={frontmatter.image} title={frontmatter.title} />
+      <Banner
+        image={frontmatter.image}
+        title={frontmatter.title}
+        lead={frontmatter.lead}
+      />
       <Container>
         <Row>
           <Col>
@@ -33,6 +37,7 @@ export const pageQuery = graphql`
       frontmatter {
         path
         title
+        lead
         image {
           childImageSharp {
             fluid {

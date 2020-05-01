@@ -1,8 +1,9 @@
 ---
 title: Commercial
 path: /commercial
-
 image: images/mortgage-loans.jpg
+lead: >
+  Financial solutions for all types of commercial business. Specialising in Commercial Loans, Bridging finance, Development finance, Cashflow and many more.
 ---
 
 We are whole of market commercial brokers, able to access the numerous commercial mortgage schemes via a wide range of lenders across the UK; both high street lenders and specialist intermediary lenders. Summit Wealth has experience in the commercial industry whether you are looking for:

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Container } from 'reactstrap';
 
-const Banner = ({ image, title }) => {
+const Banner = ({ image, title, lead }) => {
   const url = image ? image.childImageSharp.fluid.src : '';
 
   return (
@@ -16,12 +16,7 @@ const Banner = ({ image, title }) => {
       <div className="image-overlay" />
       <Container className="banner-content">
         <h1 className="banner-title">{title}</h1>
-        <p>
-          One of the UK’s Premier Mortgage and Protection specialists: - Moving
-          Home - Remortgaging - First Time Buyer - Buy to Let - Help to Buy -
-          Equity Release - Commercial Loans - Bridging Facility - Development
-          Finance - Life Assurance - Critical illness Cover - Income Protection
-        </p>
+        {lead && <p className="lead">{lead}</p>}
       </Container>
     </div>
   );
@@ -32,6 +27,7 @@ export default Banner;
 Banner.propTypes = {
   image: PropTypes.object,
   title: PropTypes.string.isRequired,
+  lead: PropTypes.string,
 };
 
 Banner.defaultProps = {

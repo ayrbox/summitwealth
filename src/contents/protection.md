@@ -2,6 +2,8 @@
 title: Protection
 path: /protection
 image: images/mODxn7mOzms.jpg
+lead: >
+  You’ve settled into a new life in a new house, but what if anything bad happens? For the sake of your home, family and dependents, be prepared and make sure you are covered.
 ---
 
 #### Life Assurance

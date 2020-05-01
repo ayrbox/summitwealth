@@ -2,6 +2,8 @@
 title: Property Insurance
 path: /insurance
 image: images/insurance.jpg
+lead: >
+  If your home suffers a fire or theft, you can be thankful if you and your loved ones are alive and uninjured. However it is important to make sure your home and possessions are covered?
 ---
 
 #### Buildings and Contents Insurance

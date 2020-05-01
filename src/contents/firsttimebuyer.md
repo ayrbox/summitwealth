@@ -2,6 +2,9 @@
 title: First Time Buyers
 path: /first-time-buyers
 image: images/mortgage-loans.jpg
+lead: >
+  Buying your home is likely to be the biggest investment you’ll make. It’s exciting, rewarding and can be slightly
+  daunting. But don’t worry, we can help you get there.
 ---
 
 Buying your first home will be one the most important purchases you will make and can be a daunting prospect.

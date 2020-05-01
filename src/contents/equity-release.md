@@ -2,6 +2,8 @@
 title: Equity Release
 path: /equity-release
 image: images/equity-release.jpg
+lead: >
+  Equity Release mortgages can provide you with more freedom and a better standard of life in your later years.
 ---
 
 #### What Is Equity Release?

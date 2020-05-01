@@ -2,6 +2,8 @@
 title: Home movers
 path: /home-movers
 image: images/mortgage-loans.jpg
+lead: >
+  Your home is the most exciting investment you’ll make. Our mortgage advice will ensure you get the right deal to suit your needs and objectives.
 ---
 
 It’s no secret that buying a property can be an extremely stressful time. With hundreds of lenders in the market, all

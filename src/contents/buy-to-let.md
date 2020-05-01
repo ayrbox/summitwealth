@@ -2,6 +2,8 @@
 title: Buy to let and company BTL
 path: /buy-to-let
 image: images/mortgage-loans.jpg
+lead: >
+  Buy to Let specialists with exclusive rates available. Whether you are investing in your first BTL or are an experienced landlord, we are here to help.
 ---
 
 Whether it’s your first Buy to Let property, growing your portfolio or seeking advice on Limited Company purchases,

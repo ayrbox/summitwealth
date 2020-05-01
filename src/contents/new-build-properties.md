@@ -2,6 +2,8 @@
 title: New Build Properties
 path: /new-build-properties
 image: images/mortgage-loans.jpg
+lead: >
+  Just find the home you love and we will do the rest.
 ---
 
 Summit Wealth are experts when it comes to purchasing new-build properties. Whether you are buying a property directly

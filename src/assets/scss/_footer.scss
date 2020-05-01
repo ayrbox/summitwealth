@@ -1,7 +1,8 @@
 $footer-color: #294d82;
+$footer-spacing: 20px;
 
 .footer-section {
-  padding-top: 80px;
+  padding-top: $footer-spacing;
 
   background-color: $footer-color;
   color: #ddd;
@@ -17,20 +18,23 @@ $footer-color: #294d82;
   @extend .mt-auto;
 
   .social-media-links {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-
     & > a {
       margin-right: 1rem;
     }
+  }
+
+  .footer-image-wrapper {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
   }
 }
 
 .copyright-section {
   background-color: darken($footer-color, 15);
   color: #ddd;
-  padding: 20px 0;
-  margin-top: 80px;
+  padding: $footer-spacing/3 0;
+  margin-top: $footer-spacing;
 
   .back-to-top {
     color: #fff;

@@ -1,7 +1,7 @@
 ---
 title: Protection
-path: /life-protection
-image: images/protection.jpg
+path: /protection
+image: images/mODxn7mOzms.jpg
 ---
 
 #### Life Assurance

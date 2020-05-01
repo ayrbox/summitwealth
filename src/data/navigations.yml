@@ -30,8 +30,8 @@
       path: /remortgages
 
 - title: Protections
-  path: /life-protection
-  slug: life-protection-page
+  path: /protection
+  slug: protection-page
 
 - title: Insurance
   path: /insurance

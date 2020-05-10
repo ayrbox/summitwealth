@@ -1,0 +1,22 @@
+.cookie-container {
+  position: fixed;
+  background: #000;
+  color: #fff;
+
+  top: -100%;
+  left: 0;
+  right: 0;
+  padding: 30px;
+  z-index: 999;
+
+  transition: 400ms;
+
+  a {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  &.active {
+    top: 0;
+  }
+}

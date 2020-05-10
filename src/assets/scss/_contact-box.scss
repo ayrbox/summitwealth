@@ -1,0 +1,35 @@
+$section-padding: 80px;
+.contact-box {
+  background-color: #172c47;
+  color: #fff;
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+
+  .contact-box-row {
+    align-items: center;
+  }
+
+  .contact-box-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .form-group {
+    padding-bottom: 20px;
+    label {
+      span {
+        color: #ff0000;
+      }
+    }
+  }
+
+  .form-note {
+    font-size: 0.9em;
+    font-style: italic;
+    padding-top: 1em;
+    span {
+      color: red;
+    }
+  }
+}

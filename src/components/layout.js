@@ -6,6 +6,7 @@ import Footer from './footer';
 import SEO from './seo';
 import CookieBanner from './CookieBanner';
 import '../assets/scss/index.scss';
+import ContactBox from './ContactBox';
 
 const Layout = ({ title, children }) => {
   return (
@@ -14,6 +15,7 @@ const Layout = ({ title, children }) => {
       <SEO title={title} />
       <Header />
       <main>{children}</main>
+      <ContactBox />
       <Footer />
     </>
   );

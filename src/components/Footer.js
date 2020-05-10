@@ -21,6 +21,13 @@ const Footer = () => {
           }
         }
       }
+      logoVouchedFor: file(relativePath: { eq: "vouchedfor_logo.png" }) {
+        childImageSharp {
+          fixed(width: 24) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
     }
   `);
   return (
@@ -221,6 +228,14 @@ const Footer = () => {
                         </linearGradient>
                       </defs>
                     </svg>
+                  </a>
+                  <a
+                    href="https://www.vouchedfor.co.uk/mortgage-advisor/rochester/033538-lee-hockins/reviews"
+                    title="Reviews and Ratings for Financial adviser Lee Hockins, Rochester"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Img fixed={data.logoVouchedFor.childImageSharp.fixed} />
                   </a>
                 </div>
               </div>

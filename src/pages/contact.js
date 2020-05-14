@@ -15,12 +15,13 @@ import {
 import { Formik } from 'formik';
 import { object, string } from 'yup';
 import Banner from '../components/Banner';
+import Map from '../components/Map';
 
 const formInitialValue = {
   name: '',
   email: '',
   phone: '',
-  message: 'alskjdflakjs',
+  message: '',
 };
 
 const formSchema = object().shape({
@@ -146,6 +147,7 @@ const Contact = () => {
                         onChange={handleChange}
                         onBlur={handleBlur}
                         invalid={!!errors.message}
+                        rows={5}
                       />
                       {errors.message && (
                         <FormFeedback>{errors.message}</FormFeedback>
@@ -182,6 +184,7 @@ const Contact = () => {
           </Col>
         </Row>
       </Container>
+      <Map />
     </Layout>
   );
 };

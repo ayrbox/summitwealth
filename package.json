@@ -23,6 +23,7 @@
     "gatsby-transformer-remark": "^2.7.3",
     "gatsby-transformer-sharp": "^2.3.13",
     "gatsby-transformer-yaml": "^2.3.4",
+    "google-map-react": "^1.1.7",
     "lodash": "^4.17.15",
     "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",

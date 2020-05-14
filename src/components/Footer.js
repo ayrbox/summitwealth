@@ -23,7 +23,7 @@ const Footer = () => {
       }
       logoVouchedFor: file(relativePath: { eq: "vouchedfor_logo.png" }) {
         childImageSharp {
-          fixed(width: 24) {
+          fixed(width: 30, height: 25) {
             ...GatsbyImageSharpFixed
           }
         }

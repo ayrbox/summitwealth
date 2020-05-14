@@ -18,6 +18,10 @@ $footer-spacing: 20px;
   @extend .mt-auto;
 
   .social-media-links {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
     & > a {
       margin-right: 1rem;
     }

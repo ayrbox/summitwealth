@@ -87,6 +87,13 @@ module.exports = {
       },
     },
     `gatsby-transformer-yaml`,
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-166644134-1',
+        head: true,
+      },
+    },
   ],
   pathPrefix: `/summitwealth`,
 };

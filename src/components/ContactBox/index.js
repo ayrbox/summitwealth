@@ -13,6 +13,8 @@ import {
 import { Formik } from 'formik';
 import { object, string } from 'yup';
 
+import { mockSendContactInformation } from './api';
+
 const formInitialValue = {
   name: '',
   email: '',
@@ -31,10 +33,16 @@ const formSchema = object().shape({
 
 const ContactBox = () => {
   const handleFormSubmit = (values, { setSubmitting }) => {
-    setTimeout(() => {
-      alert(JSON.stringify(values, null, 2));
-      setSubmitting(false);
-    }, 10000);
+    mockSendContactInformation(values)
+      .then(() => {
+        console.info('Contact information is sent.');
+      })
+      .catch(err => {
+        console.log('Error sending contact information.', err);
+      })
+      .finally(() => {
+        setSubmitting(false);
+      });
   };
 
   return (

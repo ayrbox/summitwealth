@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "author": "Sabin Raj Dangol <srdx7@hotmail.com>",
   "dependencies": {
+    "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "clsx": "^1.1.0",
     "formik": "^2.1.4",

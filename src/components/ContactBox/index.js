@@ -51,8 +51,10 @@ const ContactBox = () => {
         <Row className="contact-box-row">
           <Col>
             <div className="contact-box-header">
-              <h3>Are you in rush?</h3>
-              <p>Leave you details, and we'll be in touch with you.</p>
+              <h3>
+                Want to talk to one of our advisors please fill in your contact
+                details and we will be in touch.
+              </h3>
             </div>
           </Col>
           <Col>
@@ -127,10 +129,10 @@ const ContactBox = () => {
                   </Button>
 
                   <p className="form-note">
-                    <span>*</span> Details submitted through this form are
-                    confidential. The information therein is used only to
-                    contact you to discuss the areas you've expressed an
-                    interest in.
+                    <span>* </span>
+                    By submitting details on this form you’re agreeing to Summit
+                    Wealth Ltd and it's business partners contacting you to
+                    discuss the areas you've expressed an interest in.
                   </p>
                 </Form>
               )}

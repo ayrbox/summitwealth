@@ -37,8 +37,8 @@ const CookieBanner = () => {
         without them.
         <br />
         If you’d like to find out more about how we use cookies and how we look
-        after your data view our, view our{' '}
-        <Link to="/privacy-cookie-policy">Privacy and Cookie policy.</Link>.
+        after your data view our{' '}
+        <Link to="/privacy-cookie-policy">Privacy and Cookies policy.</Link>.
         <Row>
           <Col>
             <Button color="danger" onClick={handleAccept}>

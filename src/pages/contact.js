@@ -64,7 +64,7 @@ const Contact = () => {
             </div>
           </Col>
           <Col>
-            <div className="page-content">
+            <div className="page-content contact-page-form">
               <h1>Contact Us</h1>
               <Formik
                 initialValues={formInitialValue}

@@ -1,7 +1,6 @@
 $section-padding: 80px;
-.contact-box {
-  background-color: #172c47;
-  color: #fff;
+.contact-box,
+.contact-page-form {
   padding-top: $section-padding;
   padding-bottom: $section-padding;
 
@@ -32,4 +31,9 @@ $section-padding: 80px;
       color: red;
     }
   }
+}
+
+.contact-box {
+  background-color: #172c47;
+  color: #fff;
 }

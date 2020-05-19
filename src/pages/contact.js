@@ -53,7 +53,7 @@ const Contact = () => {
               <h1>Head Office</h1>
               Riseley House, 4 New Road, Rochester, Kent, ME1 1BD
               <p>
-                <FaPhone /> <a href="tel:+442012345678">020 1234 5678</a>
+                <FaPhone /> <a href="tel:+441634780460">01634 780 460</a>
               </p>
               <p>
                 <FaEnvelope />{' '}

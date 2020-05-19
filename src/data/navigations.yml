@@ -26,10 +26,10 @@
       title: New Build Properties
       path: /new-build-properties
     - slug: remortgage
-      title: Remortgages
-      path: /remortgages
+      title: Remortgage
+      path: /remortgage
 
-- title: Protections
+- title: Protection
   path: /protection
   slug: protection-page
 

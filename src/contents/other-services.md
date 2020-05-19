@@ -3,7 +3,8 @@ title: Other Services
 path: /other-services
 image: images/other-service-pen.jpg
 lead: >
-  We do not stop at just giving mortgage and protection advice. Please see our other services listed below and feel free to get in touch.
+  We do not stop at just giving mortgage and protection advice. Please see our
+  other services listed below and feel free to get in touch.
 ---
 
 <div class="row featurette">
@@ -15,7 +16,7 @@ lead: >
       on your family and loved ones.
     </p>
     <p>
-      Please let your adviser know if this is a service you are interested in exploring and we will make an introduction
+      Please let us adviser know if this is a service you are interested in exploring and we will make an introduction
       to our preferred partner.
     </p>
   </div>
@@ -37,7 +38,7 @@ lead: >
     </p>
     <p>
       If you don’t already have a solicitor in mind, we recommend using one from our preferred panel. Please get in touch
-      with your adviser to discuss in detail.
+      with us to discuss in detail.
     </p>
   </div>
   <div class="col-md-5 order-md-1">
@@ -61,7 +62,7 @@ lead: >
         <li>Level 2 – Survey and Valuation</li>
         <li>Level 3 – Full Building Survey</li>
     </ul>
-    <p>Please speak to one of our expert advisers to find out which type of survey is right for you.</p>
+    <p>Please speak to us to find out which type of survey is right for you.</p>
   </div>
   <div class="col-md-5">
     <img src="images/QC1JICzA0.jpg">

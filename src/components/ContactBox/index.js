@@ -52,8 +52,9 @@ const ContactBox = () => {
           <Col>
             <div className="contact-box-header">
               <h3>
-                Want to talk to one of our advisors please fill in your contact
-                details and we will be in touch.
+                Want to talk to one of our advisors?
+                <br />
+                Leave your details, and we'll be in touch.
               </h3>
             </div>
           </Col>
@@ -131,8 +132,7 @@ const ContactBox = () => {
                   <p className="form-note">
                     <span>* </span>
                     By submitting details on this form you’re agreeing to Summit
-                    Wealth Ltd and it's business partners contacting you to
-                    discuss the areas you've expressed an interest in.
+                    Wealth Ltd and it's business partners contacting you.
                   </p>
                 </Form>
               )}

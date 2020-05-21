@@ -82,7 +82,7 @@ need to be met and a loss of income could mean financial hardship.
 Whole of Life simply is a policy that will pay out on the event of your death
 and it is guaranteed to do so. It is typically more expensive than term
 assurance for that reason, but is a great plan for guaranteeing something for
-your family on the event of your death.  It is great if you are looking to leave
+your family on the event of your death. It is great if you are looking to leave
 some money to family, future school fees, funeral costs and again inheritance
 tax purposes.
 

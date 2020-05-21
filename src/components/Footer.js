@@ -42,11 +42,11 @@ const Footer = () => {
             </p>
             <p className="text-justify">
               <strong>IMPORTANT:</strong> Your home may be repossessed if you do
-              not keep up repayments on your mortgage. Our typical fee is £399
-              for purchases and £199 for remortgages but a fee of up to 1% is
-              payable in some instances. Some commercial mortgages and most buy
-              to let mortgages are not regulated by The Financial Conduct
-              Authority.
+              not keep up contractual repayments on your mortgage. Our typical
+              fee is £399 for purchases and £199 for remortgages but a fee of up
+              to 1% is payable in some instances. Some commercial mortgages and
+              most buy to let mortgages are not regulated by The Financial
+              Conduct Authority.
             </p>
           </Col>
         </Row>
@@ -243,8 +243,8 @@ const Footer = () => {
           </Col>
           <Col className="d-flex align-items-center">
             <div className="text-justify">
-              Summit Wealth Ltd (840354) is an appointed representative of New
-              Leaf Distribution Ltd which is authorised and regulated by the
+              Summit Wealth Ltd is an appointed representative of New Leaf
+              Distribution Ltd which is authorised and regulated by the
               Financial Conduct Authority - FCA Number 460421
             </div>
           </Col>

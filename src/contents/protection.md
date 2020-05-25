@@ -9,11 +9,9 @@ lead: >
 
 links:
   - title: We offer whole of market advice.
-  - title:
-      We have access to exclusive products, rates and criteria giving us a
+  - title: We have access to exclusive products, rates and criteria giving us a
       competitive edge in the market.
-  - title:
-      We offer one on one advice and can discuss all needs privately and
+  - title: We offer one on one advice and can discuss all needs privately and
       professionally.
   - title: Free consultations to all
 ---
@@ -28,7 +26,7 @@ links:
       mortgage but can be used as legacy planning and/or inheritance tax purposes.
     </p>
     <ul>
-      <li> We offer whole of market advice.</li>
+      <li>We offer whole of market advice.</li>
       <li>We have access to exclusive products, rates and criteria giving us a competitive edge in the market.</li>
       <li>We offer one on one advice and can discuss all needs privately and professionally.</li>
       <li>Free consultations to all</li>
@@ -104,6 +102,14 @@ benefit policy will pay out a monthly tax-free income if you die during the
 term, until the policy ends. Household bills and other financial commitments
 need to be met and a loss of income could mean financial hardship.
     </p>
+    <ul>
+      <li>We offer whole of market advice.</li>
+      <li>We have access to exclusive products, rates and criteria giving us a
+      competitive edge in the market.</li>
+      <li>We offer one on one advice and can discuss all needs privately and
+      professionally.</li>
+      <li>Free consultations to all</li>
+    </ul>
   </div>
   <div class="col-md-5">
    <img src="./images/jessica-rockowitz-6c4Uhhe68yQ-unsplash.jpg" />
@@ -126,7 +132,7 @@ tax purposes.
     <ul>
 <li>We offer whole of market advice.</li>
 <li>We have access to exclusive products, rates and criteria giving us a
-competitive edge in the market.</li>s
+competitive edge in the market.</li>
 <li>We offer one on one advice and can discuss all needs privately and
 professionally.</li>
 <li>Free consultations to all</li>

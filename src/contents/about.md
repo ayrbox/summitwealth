@@ -16,7 +16,7 @@ able to find a time that is suitable. We listen carefully to your requirements
 and provide a professional and impartial service to find the right solutions
 without any jargon. Appointments can be made most days to fit in with your daily
 schedule, whether this is a meeting, telephone conversation, email, text message
-or Face Time.
+or FaceTime.
 
 **Mission Statement**
 

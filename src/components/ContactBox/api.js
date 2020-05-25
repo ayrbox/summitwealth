@@ -1,17 +1,7 @@
 import axios from 'axios';
 
-const CONTACT_FORM_URL = 'https://samplecontactform.com';
+const CONTACT_FORM_URL = '/contact-email';
 
-export const sendContactInformation = async data => {
+export const sendContactEmail = async data => {
   await axios.post(CONTACT_FORM_URL, data);
-};
-
-export const mockSendContactInformation = async data => {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      console.log('Data', JSON.stringify(data, null, 2));
-      resolve();
-      // reject(new Error('Unexpected error please try again.'));
-    }, 3000);
-  });
 };

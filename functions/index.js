@@ -28,7 +28,10 @@ app.post('/contact-email', (req, res) => {
   const mg = mailgun({ apiKey, domain });
   mg.messages().send(data, function(error, body) {
     if (error) {
-      res.status(500).send({ msg: 'Error sending email.' });
+      res.status(500).send({
+        msg: 'Error sending email.',
+        detail: error,
+      });
       return;
     }
 

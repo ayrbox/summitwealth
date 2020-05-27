@@ -7,7 +7,7 @@ import Marker from './Marker';
 const Map = ({ center, zoom }) => (
   <div style={{ height: '400px', width: '100%' }}>
     <GoogleMapReact
-      bootstrapURLKeys={{ key: '' }}
+      bootstrapURLKeys={{ key: 'AIzaSyBkn9fyzKwJggrE1mVWP0SfeNViYWTGw6A' }}
       defaultCenter={center}
       defaultZoom={zoom}
     >

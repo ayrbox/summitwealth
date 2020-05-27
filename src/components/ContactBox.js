@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Container,
   Row,
@@ -32,13 +32,23 @@ const formSchema = object().shape({
 });
 
 const ContactBox = () => {
-  const handleFormSubmit = (values, { setSubmitting }) => {
+  const [contactError, setContactError] = useState();
+  const [contactSuccess, setContactSuccess] = useState();
+
+  const handleFormSubmit = (values, { setSubmitting, resetForm }) => {
+    setContactError(null);
+    setContactSuccess(null);
     sendContactEmail(values)
       .then(() => {
-        console.info('Contact information is sent.');
+        setContactSuccess(
+          'Your contact detail has been sent. We will contact you back soon. Thank you.'
+        );
+        resetForm(formInitialValue);
       })
       .catch(err => {
-        console.log('Error sending contact information.', err);
+        setContactError(
+          'Unable to send your contact detail. Please try again later or give us a call.'
+        );
       })
       .finally(() => {
         setSubmitting(false);
@@ -125,6 +135,14 @@ const ContactBox = () => {
                       <FormFeedback>{errors.phone}</FormFeedback>
                     )}
                   </FormGroup>
+                  {contactSuccess && (
+                    <p className="alert alert-success">{contactSuccess}</p>
+                  )}
+
+                  {contactError && (
+                    <p className="alert alert-danger">{contactError}</p>
+                  )}
+
                   <Button color="danger" type="submit" disabled={isSubmitting}>
                     Submit
                   </Button>

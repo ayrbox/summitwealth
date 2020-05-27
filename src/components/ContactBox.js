@@ -13,7 +13,7 @@ import {
 import { Formik } from 'formik';
 import { object, string } from 'yup';
 
-import { sendContactEmail } from './api';
+import { sendContactEmail } from '../api';
 
 const formInitialValue = {
   name: '',

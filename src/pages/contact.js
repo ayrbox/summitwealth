@@ -17,6 +17,8 @@ import { object, string } from 'yup';
 import Banner from '../components/Banner';
 import Map from '../components/Map';
 
+import { sendContactEmail } from '../api';
+
 const formInitialValue = {
   name: '',
   email: '',
@@ -37,10 +39,16 @@ const formSchema = object().shape({
 
 const Contact = () => {
   const handleFormSubmit = (values, { setSubmitting }) => {
-    setTimeout(() => {
-      console.log('DATA', values);
-      setSubmitting(false);
-    }, 2000);
+    sendContactEmail(values)
+      .then(() => {
+        console.info('Contact information is sent.');
+      })
+      .catch(err => {
+        console.log('Error sending contact information.', err);
+      })
+      .finally(() => {
+        setSubmitting(false);
+      });
   };
 
   return (

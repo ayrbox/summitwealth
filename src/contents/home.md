@@ -9,7 +9,7 @@ links:
   - title: Moving Home
     path: /home-movers
   - title: Remortgaging
-    path: /remortgages
+    path: /remortgage
   - title: First Time Buyer
     path: /first-time-buyers
   - title: Buy to Let

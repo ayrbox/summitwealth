@@ -49,7 +49,7 @@ const ContactBox = () => {
     <section className="contact-box">
       <Container>
         <Row className="contact-box-row">
-          <Col>
+          <Col sm={12} md={6}>
             <div className="contact-box-header">
               <h3>
                 Want to talk to one of our advisors?
@@ -58,7 +58,7 @@ const ContactBox = () => {
               </h3>
             </div>
           </Col>
-          <Col>
+          <Col sm={12} md={6}>
             <Formik
               initialValues={formInitialValue}
               onSubmit={handleFormSubmit}

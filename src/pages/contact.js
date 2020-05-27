@@ -48,7 +48,7 @@ const Contact = () => {
       <Banner title="Contact Us" />
       <Container>
         <Row>
-          <Col>
+          <Col sm={12} md={6}>
             <div className="page-content">
               <h1>Head Office</h1>
               Riseley House, 4 New Road, Rochester, Kent, ME1 1BD
@@ -63,7 +63,7 @@ const Contact = () => {
               </p>
             </div>
           </Col>
-          <Col>
+          <Col sm={12} md={6}>
             <div className="page-content contact-page-form">
               <h1>Contact Us</h1>
               <Formik
